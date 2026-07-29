@@ -1,0 +1,63 @@
+import os
+
+def write_file():
+    name = input('Enter a file name: ')
+    text = input('Enter file text: ')
+
+    i = open(name , 'w')
+    i.write(text)
+
+def append_file():
+    name_2 = input('Enter the file you want to append: ')
+    text_2 = input('Enter append text: ')
+
+    j = open(name_2, 'a')
+    j.write(text_2)
+
+def read_file():
+    name_3 = input('Enter file you want to read: ')
+
+    k = open(name_3 , 'r')
+    print(k.read())
+
+def delete_file():
+    name_4 = input('Enter the file you want to delete: ')
+
+    os.remove(name_4)
+
+def list_file():
+    result = os.listdir()
+    print(result)
+
+while True:
+    print('====File Manager====')
+    print('1.write file')
+    print('2.Appned File')
+    print('3.Read File')
+    print('4.Delete File')
+    print('5.List file')
+    print('6.Exit')
+
+    choice = input('Select: ')
+
+
+    if choice == '1':
+        write_file()
+
+    elif choice == '2':
+        append_file()    
+
+    elif choice == '3':
+        read_file()
+
+    elif choice == '4':
+        delete_file()
+
+    elif choice == '5':
+        list_file()
+
+    elif choice == '6':
+        break
+
+    else: 
+        print('invalid option!')
