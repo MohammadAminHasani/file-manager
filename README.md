@@ -10,31 +10,32 @@ The goal of this project was to understand how programs can interact with the co
 
 ## Features
 
-* View files and folders
-* Create new files and folders
-* Rename files
-* Delete files
-* Organize and manage directories
+- View files and folders
+- Create new files and folders
+- Rename files
+- Delete files
+- Organize and manage directories
 
 ## Technologies Used
 
-* Python
+- Python
+- OS/File handling modules
 
 ## What I Learned
 
 While building this project, I practiced:
 
-* File handling
-* Working with directories
-* Using Python modules for system operations
-* Organizing code into a practical application
+- File handling
+- Working with directories
+- Using Python modules for system operations
+- Organizing code into a practical application
 
 ## Future Improvements
 
-* Add a graphical user interface (GUI)
-* Add search functionality
-* Add file moving and copying features
-* Improve error handling
+- Add a graphical user interface (GUI)
+- Add search functionality
+- Add file moving and copying features
+- Improve error handling
 
 ## Author
 
