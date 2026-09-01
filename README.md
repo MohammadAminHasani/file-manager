@@ -30,13 +30,6 @@ While building this project, I practiced:
 - Using Python modules for system operations
 - Organizing code into a practical application
 
-## Future Improvements
-
-- Add a graphical user interface (GUI)
-- Add search functionality
-- Add file moving and copying features
-- Improve error handling
-
 ## Author
 
 MohammadAmin
